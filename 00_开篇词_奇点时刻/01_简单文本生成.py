@@ -14,3 +14,6 @@ llm = OpenAI(model_name="gpt-3.5-turbo-instruct",max_tokens=200)
 # text = llm("请给我写一句情人节红玫瑰的中文宣传语")
 text = llm.invoke("请给我写一句情人节红玫瑰的中文宣传语")
 print(text)
+
+## 备注：答案："红玫瑰，浓情蜜意，愿我们的爱情永远如鲜花般绽放！"
+## 观察： 本次使用约300token
